@@ -25,7 +25,7 @@ def save(urls: list):
 
 
 def generate_path():
-    BASE = "https://github.aiyc.top/teacher-per-capita"
+    BASE = "https://github.aiyc.top/teacher-per-capita/"
     target = ["mp4", "ts"]
     result = []
     for root, _, filenames in os.walk("."):
